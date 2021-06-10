@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+h1{
+  font-family: Roboto;
+  font-size: 72px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: #000000 1px 0 1px;
+  padding:150px 15px 15px 15px;
+}
+h2{
+   font-family: Roboto;
+  font-size: 24pt;
+  color: #C40000;
+  text-transform: uppercase;
+  text-align: center;
+}
+p{
+  font-family: Roboto;
+  font-size: 18px;
+  
+  text-align: center;
+  padding: 5px 100px 5px 100px;
+  
+}
+.card{
+  width: 50%;
+  border-style: solid;
+  border-color: #000000;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 3px;
+}
+#directory{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#title {
+  background-image: url(https://i.imgur.com/FmHHFad.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.card:hover {
+  box-shadow: 0px 5px 5px 0px grey;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 50px 10px 50px 10px;
+}
+#footer {
+  color: white;
+  height: 180px;
+  background: #c40000;
+  text-align: center;
+  padding-top: 25px;
+  margin-top: 100px;
+  line-height: 50px;
+}
